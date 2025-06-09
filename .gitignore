@@ -1,0 +1,47 @@
+# Ignorované soubory a adresáře pro CARPORTbusiness web
+
+# Závislosti
+/node_modules
+/bower_components
+
+# Produkční build
+/build
+/dist
+
+# Dočasné soubory
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.cache
+.temp
+
+# Logy
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE a editory
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Zálohy
+/backup
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# IDE a editory
+/.idea
+/.vscode
+*.swp
+*.swo
+*~
+
+# Osobní nastavení
+.env
+.env.local

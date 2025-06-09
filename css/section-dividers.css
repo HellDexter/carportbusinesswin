@@ -1,0 +1,22 @@
+/* Zelené podtržení pod nadpisy sekcí */
+.section-header:after {
+    content: "";
+    display: block;
+    height: 4px;
+    background-color: #07ff01;
+    width: 100px;
+    margin: 15px auto 30px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(7, 255, 1, 0.5);
+}
+
+/* Skrytí oddělovačů sekcí, které budou nahrazeny podtržením nadpisů */
+.section-divider {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .section-header:after {
+        margin: 10px auto 20px;
+    }
+}

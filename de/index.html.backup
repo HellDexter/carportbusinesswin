@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARPORTbusiness - Solar-Carports</title>
+    <meta name="description" content="CARPORTbusiness bietet innovative Lösungen für Solar-Carports mit Fokus auf Ökologie und Energieeinsparung.">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/enhanced-frames.css">
+    <link rel="stylesheet" href="../css/section-dividers.css">
+    <link rel="stylesheet" href="../css/custom-buttons.css">
+    <link rel="icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../img/logo.png" alt="CARPORTbusiness Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Über uns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Produkte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#technology">Technologie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#for-business">Für Unternehmen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#roi">ROI-Rechner</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontakt</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link lang-switch dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            DE
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="../index.html">CZ</a></li>
+                            <li><a class="dropdown-item" href="../en/index.html">EN</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section" style="background-color: #000000; position: relative; overflow: hidden; height: 100vh; padding: 0; width: 100%; margin: 0;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; background-color: rgba(0,0,0,0.5);"></div>
+        <img src="../img/hero.jpg" alt="CARPORTbusiness Hero" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
+        <div class="container" style="position: relative; z-index: 2; height: 100%; display: flex; align-items: center;">
+            <div class="hero-content" style="max-width: 800px; padding: 0;">
+                <h1 style="color: #ffffff; font-size: 3.5rem;">Verdienen Sie mit <span class="highlight">sauberer Energie</span> für E-Mobilität</h1>
+                <p style="color: #ffffff; font-size: 1.2rem;">Betreiben Sie Ihren eigenen Solar-CARPORTbusiness, verdienen Sie Geld durch das Laden von Elektrofahrzeugen und nehmen Sie teil an der Zukunft nachhaltiger Energie. Investieren Sie in Ihre eigene Ladestation und schaffen Sie ein stabiles und langfristig profitables Einkommen.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Kontaktieren Sie uns</a>
+                    <a href="#products" class="btn btn-secondary" style="border: 2px solid #07ff01; background: transparent; color: #ffffff;">Mehr erfahren</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down-container" style="position: absolute; bottom: 25px; left: 50%; transform: translateX(-50%);">
+            <a href="#about" class="scroll-down-btn">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Über <span class="highlight">Uns</span></h2>
+                <p>Innovative Lösungen für eine nachhaltige Zukunft</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-content" style="background-color: #f9f9f9; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01;">
+                        <h3>Innovative Lösung für Ihren Verdienst</h3>
+                        <p>Wir bringen eine innovative Lösung auf den Markt, die nachhaltige Energie mit einer Verdienstmöglichkeit kombiniert. Unser Solar-CARPORTbusiness ist nicht nur die Technologie der Zukunft, sondern auch eine profitable Investition – so können die Eigentümer durch das Laden von Elektrofahrzeugen Geld verdienen und gleichzeitig zur ökologischen Transformation des Verkehrs beitragen.</p>
+                        <p>Dank modernster Fertigungsprozesse, die wir ständig optimieren, gewährleisten wir höchste Qualität, lange Lebensdauer und Effizienz unserer Systeme. Jeder CARPORTbusiness ist so konzipiert, dass er den Witterungsbedingungen mindestens 30 Jahre standhält und seinem Besitzer langfristig ein stabiles Einkommen bringt.</p>
+                        <p>Mit unserem CARPORTbusiness schützen Sie nicht nur die Umwelt, sondern bauen auch Ihr eigenes Geschäft im Bereich der erneuerbaren Energien auf.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                    <img src="../img/port_shadow.png" alt="CARPORTbusiness Solar-Carports" class="img-fluid">
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="video-container">
+                        <video id="aboutVideoDe" width="100%" muted playsinline loop>
+                            <source src="../img/Titulky CB.mp4" type="video/mp4">
+                            Ihr Browser unterstützt keine Videowiedergabe.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section business-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Erhalten Sie ein <span class="highlight">schlüsselfertiges Geschäft</span></h2>
+                <p>Besitzen Sie eine Parkfläche, ein Mehrfamilienhaus mit Parkplatz, ein Grundstück, einen Firmenparkplatz oder ein ungenutztes Gelände?</p>
+            </div>
+            <div class="text-center mb-4">
+                <p class="business-timeframe" style="font-size: 1.2rem; font-weight: 500; font-style: italic;">Lieferzeit nur 3-4 Monate | Return on Investment 3-4 Jahre | Lebensdauer 30 Jahre</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="products-intro" style="background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01;">
+                        <p>Haben Sie mindestens 6 oder 12 oder mehr Parkplätze? CARPORTbusiness ist ein Instrument, um zum Preis einer kleinen Wohnung in Prag jährlich rund 25% Ihrer Investition zu verdienen, abhängig von Standort, Ladefrequenz, installierter Technologie, Kraftwerksleistung, Anzahl der Ladegeräte und Stromeinspeisung am Standort. 30 Jahre lang verdienen Sie, ohne dass Sie Mitarbeiter vor Ort haben müssen und ständig physisch anwesend sein müssen.</p>
+                        <p>CARPORTbusiness ist eine Selbstbedienungs-Ladestation mit Kraftwerk und Zahlungsterminals, die Strom für Ladegeräte erzeugt und automatisch aus dem Netz nimmt, was sie nicht selbst produziert.</p>
+                        <p>Sie registrieren den Ort auf der Karte der Ladestationen, richten lokale Werbung ein und beobachten einfach, wie Geld auf Ihr Konto kommt.</p>
+                        <p>Wir helfen Ihnen, die notwendigen Genehmigungen zu erhalten.</p>
+                        <p>Lieferzeit ca. 3-4 Monate.</p>
+                    </div>
+                    <div class="text-center mt-3">
+                        <a href="#contact" class="btn permit-btn">Wir helfen Ihnen bei der Beschaffung notwendiger Genehmigungen <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row product-models mt-5">
+                <div class="col-lg-4">
+                    <div class="product-card">
+                        <div class="product-card-header">
+                            <h3>CARPORTbusiness 1</h3>
+                        </div>
+                        <div class="product-card-body">
+                            <p class="mb-4">Basismodell für 12 Parkplätze</p>
+                            <div class="product-feature">
+                                <i class="fas fa-solar-panel"></i>
+                                <div>Leistung: 30 kWp</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-money-bill-wave"></i>
+                                <div>Kaufpreis: 3.500.000 CZK zzgl. MwSt.</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-car"></i>
+                                <div>Anzahl der Parkplätze: 12</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-charging-station"></i>
+                                <div>Anzahl der Ladegeräte: 1× DC 160 kW + 5× AC 22 kW</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-clock"></i>
+                                <div>Ladezeit: DC: 20-40 Min., AC: 5 Std.</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-battery-full"></i>
+                                <div>Batteriespeicherkapazität: 150 kWh</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-history"></i>
+                                <div>Systemlebensdauer: 30 Jahre</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-sync-alt"></i>
+                                <div>Rendite: 3-4 Jahre</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-chart-line"></i>
+                                <div>Durchschnittlicher Ertrag: 1.000.000 CZK/Jahr</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-plug"></i>
+                                <div>Min. Anforderungen an das Verteilernetz: 3x32A</div>
+                            </div>
+                            <div class="product-price">
+                                <div class="price">3.500.000 CZK</div>
+                                <div class="price-note">zzgl. MwSt.</div>
+                            </div>
+                            <div class="product-cta">
+                                <a href="#contact" class="btn btn-primary">Ich bin interessiert</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="product-card">
+                        <div class="product-card-header">
+                            <h3>CARPORTbusiness 2</h3>
+                        </div>
+                        <div class="product-card-body">
+                            <p class="mb-4">Mittleres Modell für 24 Parkplätze</p>
+                            <div class="product-feature">
+                                <i class="fas fa-solar-panel"></i>
+                                <div>Leistung: 60 kWp</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-money-bill-wave"></i>
+                                <div>Kaufpreis: 5.290.000 CZK zzgl. MwSt.</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-car"></i>
+                                <div>Anzahl der Parkplätze: 24</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-charging-station"></i>
+                                <div>Anzahl der Ladegeräte: 1× DC 160 kW + 5× AC 22 kW</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-clock"></i>
+                                <div>Ladezeit: DC: 20-40 Min., AC: 5 Std.</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-battery-full"></i>
+                                <div>Batteriespeicherkapazität: 300 kWh</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-history"></i>
+                                <div>Systemlebensdauer: 30 Jahre</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-sync-alt"></i>
+                                <div>Rendite: 3-4 Jahre</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-chart-line"></i>
+                                <div>Durchschnittlicher Ertrag: 1.500.000 CZK/Jahr</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-plug"></i>
+                                <div>Min. Anforderungen an das Verteilernetz: 3x32A</div>
+                            </div>
+                            <div class="product-price">
+                                <div class="price">5.290.000 CZK</div>
+                                <div class="price-note">zzgl. MwSt.</div>
+                            </div>
+                            <div class="product-cta">
+                                <a href="#contact" class="btn btn-primary">Ich bin interessiert</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="product-card">
+                        <div class="product-card-header">
+                            <h3>CARPORTbusiness 3</h3>
+                        </div>
+                        <div class="product-card-body">
+                            <p class="mb-4">Erweitertes Modell für 36 Parkplätze</p>
+                            <div class="product-feature">
+                                <i class="fas fa-solar-panel"></i>
+                                <div>Leistung: 90 kWp</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-money-bill-wave"></i>
+                                <div>Kaufpreis: 6.590.000 CZK zzgl. MwSt.</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-car"></i>
+                                <div>Anzahl der Parkplätze: 36</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-charging-station"></i>
+                                <div>Anzahl der Ladegeräte: 1× DC 160 kW + 5× AC 22 kW</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-clock"></i>
+                                <div>Ladezeit: DC: 20-40 Min., AC: 5 Std.</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-battery-full"></i>
+                                <div>Batteriespeicherkapazität: 300 kWh</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-history"></i>
+                                <div>Systemlebensdauer: 30 Jahre</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-sync-alt"></i>
+                                <div>Rendite: 3-4 Jahre</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-chart-line"></i>
+                                <div>Durchschnittlicher Ertrag: 2.000.000 CZK/Jahr</div>
+                            </div>
+                            <div class="product-feature">
+                                <i class="fas fa-plug"></i>
+                                <div>Min. Anforderungen an das Verteilernetz: 3x32A</div>
+                            </div>
+                            <div class="product-price">
+                                <div class="price">6.590.000 CZK</div>
+                                <div class="price-note">zzgl. MwSt.</div>
+                            </div>
+                            <div class="product-cta">
+                                <a href="#contact" class="btn btn-primary">Ich bin interessiert</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-note text-center mt-5">
+                <p>Die Modellreihe wird als CARPORTbusiness 4, 5, 6-100 fortgesetzt. Einzelne Modelle können mit verschiedenen Arten von Batteriespeichern und Anzahl von Ladegeräten ausgestattet werden und können an eine bestehende PV-Anlage angeschlossen werden.</p>
+                <div class="text-center mt-4">
+                    <a href="../download/Prezentace CARPORTbusiness - podnikatelská příležitost pro zákazníka.pdf" class="btn permit-btn" target="_blank" download>CARPORTbusiness Präsentation herunterladen <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Technology Section -->
+    <section id="technology" class="technology-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>CARPORTbusiness – <span class="highlight">Solartechnologie</span> Laden der Zukunft</h2>
+                <p>Moderne Lösung, die Parken, Energieerzeugung und Laden von Elektrofahrzeugen kombiniert</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="technology-content" style="background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01;">
+                        <h3>Komplexe Geschäftslösung</h3>
+                        <p>Wir bieten eine Lösung für das Geschäft mit dem Laden von Elektrofahrzeugen und möglicherweise die Reduzierung der Energiebelastung angrenzender Gebäude und die Abdeckung von Parkplätzen. Es ist ein Werkzeug, um:</p>
+                        <ul>
+                            <li>Ökologische kommerzielle AC- und DC-Ladestationen für Elektrofahrzeuge mit Gewinn zu betreiben.</li>
+                            <li>Die Kosten für den Betrieb von Gebäuden dank des erzeugten Stroms, der nicht durch das Laden verbraucht wird, effektiv zu senken.</li>
+                            <li>Den CO2-Fußabdruck des Unternehmens zu reduzieren, d.h. wirklich ESG anzugehen.</li>
+                            <li>Kunden durch Laden zu bringen und gleichzeitig Unterstützung aus dem Europäischen Fonds zu erhalten.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="technology-features" style="background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01;">
+                        <h3>Schlüsselfunktionen der Technologie</h3>
+                        <ul>
+                            <li>Ladestation mit 2 bis 6 Anschlüssen an 1 Ladeständer, 1 oder 2 Stellplätzen.</li>
+                            <li>Wahlmöglichkeit zwischen AC- und DC-Laden.</li>
+                            <li>Robuste Konstruktion und hochwertige Komponenten für minimale Wartung.</li>
+                            <li>Integriertes Energiemanagement und Betriebsüberwachung.</li>
+                            <li>Einfache Installation auf dem Land des Kunden.</li>
+                            <li>Fernwartung, Service und Support.</li>
+                            <li>Verschiedene Farbgestaltungen der Struktur.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <div class="hybrid-system" style="background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01;">
+                        <h3 class="text-center">Hybrides Photovoltaik-Kraftwerk, Ladegeräte für Elektrofahrzeuge, Regenwasserspeichersystem für Brauchwasser</h3>
+                        <div class="row mt-4">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li>Hybride Photovoltaik-Kraftwerke mit Elektrofahrzeug-Ladestationen. Parkende auf Ihrem Parkplatz können gleichzeitig ihr Elektrofahrzeug laden.</li>
+                                    <li>Die Energie wird direkt vom Kraftwerk zum Ladegerät verteilt, bei Bedarf durch Entnahme aus dem Batteriespeicher ergänzt, und wenn die Versorgung aus dem Kraftwerk nicht ausreicht, kann das System die Entnahme aus dem externen Verteilungsnetz ergänzen.</li>
+                                    <li>Damit die Netzentnahme nicht zu plötzlich erfolgt und es nicht zu großen Schwankungen im Verbrauch kommt, kann das System so eingestellt werden, dass die Batterien in Zeiten, in denen das Kraftwerk nicht produziert, teilweise aus dem Netz geladen werden.</li>
+                                    <li>Das gesamte System kann gesteuert werden, und wenn sich mehr Verbraucher zum Schnellladen von Elektrofahrzeugen anschließen, teilt das System die Kapazität für einzelne Ladegeräte auf.</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li>Zu den bereits beschriebenen Systemen kann ein Tank zum Auffangen von Regenwasser hinzugefügt werden, der als Brauchwasser genutzt werden kann. Der Überlauf aus dem Tank ist an die Regenwasserkanalisation angeschlossen.</li>
+                                </ul>
+                                <div class="hybrid-image text-center mt-4">
+                                    <img src="../img/picture_bg.png" alt="Hybrid-System-Diagramm" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="video-container">
+                        <video id="constructionVideo" width="100%" muted playsinline loop>
+                            <source src="video/konstrukce.mp4" type="video/mp4">
+                            Ihr Browser unterstützt die Videowiedergabe nicht.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12">
+                    <section class="charger-variants">
+                        <div class="container">
+                            <h2>Ladegerät <span class="highlight">Varianten</span></h2>
+                            <div class="wallbox-section">
+                                <div class="charger-type">
+                                    <h3>Wallboxen AC:</h3>
+                                    <ul class="charger-list">
+                                        <li>Wallbox mit einer Steckdose 3,7kW bis 22kW</li>
+                                        <li>Wallbox DUO mit zwei Steckdosen 2 x 3,7kW bis 22kW</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="charger-type">
+                                <h3>Schnellladestationen AC/DC:</h3>
+                                <ul class="charger-list">
+                                    <li>EVO 80 – Ladeleistung AC max 22kW und DC max 80kW, mit einer AC-Steckdose mit 2 x DC-Ladekabel</li>
+                                    <li>EVO 120 - Ladeleistung AC max 22kW und DC max 120kW, mit einer AC-Steckdose mit 2 x DC-Ladekabel</li>
+                                    <li>EVO 160 - Ladeleistung AC max 22kW und DC max 160kW, mit einer AC-Steckdose mit 2 x DC-Ladekabel</li>
+                                    <li>EVO 200 - Ladeleistung AC max 22kW und DC max 200kW, mit einer AC-Steckdose mit 2 x DC-Ladekabel</li>
+                                    <li>EVO 240 - Ladeleistung AC max 22kW und DC max 240kW, mit einer AC-Steckdose mit 2 x DC-Ladekabel</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Warranty and Service Section -->
+    <section id="warranty" class="warranty-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>CARPORT <span class="highlight">Garantie und Service</span></h2>
+                <p>Wir bieten Ihnen eine umfassende Garantie und Serviceleistungen für Ihre Solar-Carports</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <div class="warranty-service" style="background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01;">
+                        <h3 class="text-center">CARPORT Garantie und Service</h3>
+                        <div class="row mt-4">
+                            <div class="col-lg-6">
+                                <h4>Garantie</h4>
+                                <ul>
+                                    <li>5 Jahre Garantie auf das Kraftwerk und die Ladegeräte.</li>
+                                    <li>15 Jahre Garantie auf die Paneele.</li>
+                                </ul>
+                                <h4>Service</h4>
+                                <ul>
+                                    <li>Das Kraftwerk verfügt über Fernüberwachung über das Internet. Das System kann Fehler und defekte Komponenten selbst diagnostizieren.</li>
+                                    <li>Unser Unternehmen überwacht den Zustand des Kraftwerks aus der Ferne, und im Falle einer Störung kommt innerhalb von 24 Stunden ein Techniker mit Ersatzteilen und repariert das Kraftwerk.</li>
+                                    <li>Nach 5 Jahren wird der Service gemäß dem Servicevertrag bereitgestellt, jedoch zu angemessenen und vertretbaren Preisen.</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <h4>Servicekosten</h4>
+                                <ul>
+                                    <li>Jährliche Wartung und Inspektion 1x pro Jahr liegen bei etwa 1% des Kaufpreises.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- For Business Section -->
+    <section id="for-business" class="for-business-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>CARPORTs <span class="highlight">für Unternehmen</span></h2>
+                <p>Lösungen für große kommerzielle Parkplätze und Unternehmenskunden</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="business-content">
+                        <h3>CARPORTs für große Unternehmenskunden</h3>
+                        <p>Unser Ziel ist es, CARPORTs für große Produktionsunternehmen, Autohäuser, Hotels, Lagerhallenbesitzer, Einkaufszentren, Einzelhandelsketten, Parkplatzbetreiber, Städte, Flughäfen, Tankstellen, Fast-Food-Restaurants, Skigebiete und ähnliche Einrichtungen zu liefern.</p>
+                        <p>Unsere Technologie ist modular, und daher gibt es keinen Unterschied zwischen der Herstellung von CARPORT 1 oder CARPORT 100.</p>
+                        <p>Der von großen ungenutzten Parkflächen erzeugte Strom hilft, den Energiebedarf großer Gebäude, Produktionen und Betriebe schnell zu senken.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ROI Calculator Section -->
+    <section id="roi" class="roi-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Wirtschaftliche <span class="highlight">Erklärung</span></h2>
+                <p>Modellbeispiel eines "CARPORTbusiness 1" Moduls mit 12 Parkplätzen</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="roi-calculator" style="background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01;">
+                        <div class="calculator-details">
+                            <ul>
+                                <li>Kaufpreis je nach Ausstattung ca. 140.000 EUR ohne MwSt. abhängig von Speicher und anderen Details.</li>
+                                <li>Die Leistung des CARPORTbusiness 1 Moduls beträgt 30kWp.</li>
+                                <li>Speziell hergestellte Paneele und eingesetzte Technologien gewährleisten eine Erhöhung der erzeugten Elektrizitätsmenge.</li>
+                                <li>Ungefähres monatliches Einkommen 2.000 - 4.000 EUR abhängig von Ladefrequenz, Saison und Standort.</li>
+                                <li>Kapitalrendite abhängig von Energieeinsparungen und Anzahl der Ladezyklen in der Regel 3-4 Jahre, dann 26-27 Jahre reiner Gewinn.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Kontaktieren Sie <span class="highlight">uns</span></h2>
+                <p>Interessieren Sie sich für unsere Lösungen oder benötigen Sie weitere Informationen über CARPORTbusiness?</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="contact-info">
+                        <h3>Wir sind für Sie da</h3>
+                        <p>Zögern Sie nicht, uns mit jeglichen Fragen zu unseren CARPORTbusiness Solar-Carports zu kontaktieren. Unser Expertenteam gibt Ihnen gerne alle Informationen zu unseren Produkten, Preisen und Installationsmöglichkeiten.</p>
+                        
+                        <div class="info-item">
+                            <i class="bi bi-geo-alt"></i>
+                            <div>
+                                <h4>Adresse:</h4>
+                                <p>CARPORTbusiness s.r.o.<br>Technologická 376/5<br>708 00 Ostrava-Pustkovec</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="bi bi-envelope"></i>
+                            <div>
+                                <h4>E-Mail:</h4>
+                                <p>info@carportbusiness.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="bi bi-phone"></i>
+                            <div>
+                                <h4>Telefon:</h4>
+                                <p>+420 777 888 999</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">Vollständiger Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Ihr Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="email">E-Mail</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Ihre E-Mail" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Betreff</label>
+                                <input type="text" class="form-control" id="subject" placeholder="Nachrichtenbetreff">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Nachricht</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="gdprConsent" required>
+                                    <label class="form-check-label" for="gdprConsent">
+                                        Ich stimme der Verarbeitung meiner personenbezogenen Daten gemäß DSGVO zu
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Nachricht senden</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="../img/logo-white.png" alt="CARPORTbusiness Logo" class="footer-logo mb-4">
+                    <p>Spezialist für Solarcarports für gewerbliche und private Nutzung.</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-links">
+                        <h4>Schnellzugriff</h4>
+                        <ul class="footer-menu">
+                            <li><a href="#about">Über uns</a></li>
+                            <li><a href="#products">Produkte</a></li>
+                            <li><a href="#technology">Technologie</a></li>
+                            <li><a href="#for-business">Für Unternehmen</a></li>
+                            <li><a href="#roi">ROI-Rechner</a></li>
+                            <li><a href="#contact">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-contact">
+                        <h4>Bleiben Sie in Kontakt</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="icon-facebook"></i></a>
+                            <a href="#" class="social-icon"><i class="icon-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="icon-linkedin"></i></a>
+                            <a href="#" class="social-icon"><i class="icon-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CARPORTbusiness. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" style="display: none; position: fixed; bottom: 20px; right: 20px; z-index: 99; background-color: #07ff01; color: black; width: 50px; height: 50px; border-radius: 50%; border: none; cursor: pointer; box-shadow: 0 4px 8px rgba(0,0,0,0.3); outline: none; transition: all 0.3s ease;">
+        <i style="border: solid black; border-width: 0 3px 3px 0; display: inline-block; padding: 5px; transform: rotate(-135deg); -webkit-transform: rotate(-135deg);"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

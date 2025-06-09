@@ -1,0 +1,51 @@
+SEO NÁVOD PRO WEB CARPORTBUSINESS.COM
+====================================
+
+Provedené úpravy pro zlepšení indexace v Google:
+------------------------------------------------
+
+1. Oprava souboru robots.txt
+   - Správné nastavení User-agent: *
+   - Povolení indexace celého webu (Allow: /)
+   - Odkaz na sitemap.xml
+
+2. Aktivace Vercel Analytics
+   - Odkomentování skriptu pro Vercel Analytics
+   - Vytvoření vlastního souboru analytics.js pro lepší sledování
+
+3. Přidání strukturovaných dat (Schema.org)
+   - Přidání strukturovaných dat pro organizaci
+   - Kontaktní informace v JSON-LD formátu
+
+4. Rozšíření meta tagů
+   - Přidání meta tagu pro Google Site Verification
+   - Přidání klíčových slov (keywords)
+
+5. Vytvoření pomocných souborů
+   - google-site-verification.html pro ověření vlastnictví domény
+   - sitemap-generator.js pro aktualizaci sitemap.xml
+
+Další kroky pro zlepšení indexace:
+----------------------------------
+
+1. REGISTRACE V GOOGLE SEARCH CONSOLE
+   - Přejděte na https://search.google.com/search-console
+   - Přidejte svůj web (doménu carportbusiness.com)
+   - Ověřte vlastnictví domény (nahraďte NAHRAĎTE_TÍMTO_VÁŠ_VERIFIKAČNÍ_KÓD skutečným kódem)
+   - Ručně odešlete sitemap.xml ke zpracování
+
+2. VYTVOŘENÍ ZPĚTNÝCH ODKAZŮ
+   - Registrujte web do relevantních katalogů (Firmy.cz, Google Business, apod.)
+   - Sdílejte web na sociálních sítích
+   - Vytvořte profily na oborových portálech
+
+3. PRAVIDELNÁ AKTUALIZACE OBSAHU
+   - Přidávejte nové informace a aktualizujte stávající
+   - Udržujte aktuální datum v sitemap.xml (můžete použít sitemap-generator.js)
+
+4. SLEDOVÁNÍ VÝSLEDKŮ
+   - Pravidelně kontrolujte Google Search Console
+   - Sledujte návštěvnost pomocí Vercel Analytics
+   - Upravujte strategii podle výsledků
+
+Poznámka: Po nasazení změn může trvat několik dnů až týdnů, než Google plně zaindexuje váš web.

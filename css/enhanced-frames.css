@@ -1,0 +1,20 @@
+/* Hover efekty pro všechny rámečky s kontrastním pozadím */
+
+.about-content, .products-intro, .technology-content, .technology-features, 
+.hybrid-system, .warranty-service, .roi-calculator {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-content:hover, .products-intro:hover, .technology-content:hover, 
+.technology-features:hover, .hybrid-system:hover, .warranty-service:hover, 
+.roi-calculator:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Zajistíme, aby hover efekt překonal inline styly */
+.about-content:hover, .products-intro:hover, .technology-content:hover, 
+.technology-features:hover, .hybrid-system:hover, .warranty-service:hover, 
+.roi-calculator:hover {
+    border-left: 6px solid #00e600 !important;
+}

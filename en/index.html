@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id=GTM-5MR3TLM7'+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARPORTbusiness - Solar Carports</title>
+    <meta name="description" content="CARPORTbusiness offers innovative solar carport solutions with focus on ecology and energy savings.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.carportbusiness.com/en/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.carportbusiness.com/en/">
+    <meta property="og:title" content="CARPORTbusiness - Solar Carports">
+    <meta property="og:description" content="CARPORTbusiness offers innovative solar carport solutions with focus on ecology and energy savings.">
+    <meta property="og:image" content="https://www.carportbusiness.com/img/hero.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.carportbusiness.com/en/">
+    <meta property="twitter:title" content="CARPORTbusiness - Solar Carports">
+    <meta property="twitter:description" content="CARPORTbusiness offers innovative solar carport solutions with focus on ecology and energy savings.">
+    <meta property="twitter:image" content="https://www.carportbusiness.com/img/hero.jpg">
+    
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/video-controls.css">
+    <link rel="stylesheet" href="../css/enhanced-frames.css">
+    <link rel="stylesheet" href="../css/section-dividers.css">
+    <link rel="stylesheet" href="../css/custom-buttons.css">
+    <link rel="icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    <!-- Vercel Analytics - zakomentováno pro lokální vývoj
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+    End Vercel Analytics -->
+    <style>
+        /* Základní responzivní styly */
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Hero sekce responzivní styly */
+        .hero-section {
+            position: relative;
+            overflow: hidden;
+            height: 100vh;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background-color: rgba(0,0,0,0.5);
+        }
+        
+        .hero-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+        }
+        
+        .hero-container {
+            position: relative;
+            z-index: 2;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            padding: 0 15px;
+        }
+        
+        .hero-content h1 {
+            color: #ffffff;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            word-wrap: break-word;
+            hyphens: auto;
+        }
+        
+        .hero-content p {
+            color: #ffffff;
+            font-size: clamp(1rem, 2vw, 1.2rem);
+            word-wrap: break-word;
+        }
+        
+        /* Mediální dotazy pro mobilní zařízení */
+        @media (max-width: 768px) {
+            .hero-content {
+                padding: 0 15px;
+            }
+        }
+        
+        /* Styling pro posuvníky */
+        .roi-calculator-range {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 8px;
+            border-radius: 5px;  
+            background: #e9e9e9;
+            outline: none;
+            border: 1px solid #ccc;
+        }
+        
+        .roi-calculator-range::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%; 
+            background: #07ff01;
+            cursor: pointer;
+            border: 2px solid #fff;
+            box-shadow: 0 0 3px rgba(0,0,0,0.3);
+        }
+        
+        .roi-calculator-range::-moz-range-thumb {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #07ff01;
+            cursor: pointer;
+            border: 2px solid #fff;
+            box-shadow: 0 0 3px rgba(0,0,0,0.3);
+        }
+        
+        .roi-calculator-range::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 8px;
+            cursor: pointer;
+            background: #e9e9e9;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        
+        .roi-calculator-range::-moz-range-track {
+            width: 100%;
+            height: 8px;
+            cursor: pointer;
+            background: #e9e9e9;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MR3TLM7"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Nový moderní navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#home" class="navbar-logo">
+                <img src="../img/logo.png" alt="CARPORTbusiness Logo">
+            </a>
+            <div class="navbar-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="navbar-links">
+                <a href="#home" class="navbar-link active">Home</a>
+                <a href="#about" class="navbar-link">About</a>
+                <a href="#products" class="navbar-link">Products</a>
+                <a href="#technology" class="navbar-link">Technology</a>
+                <a href="#for-business" class="navbar-link">For Companies</a>
+                <a href="#roi" class="navbar-link">ROI Calculator</a>
+                <a href="#contact" class="navbar-link">Contact</a>
+                <div class="language-selector">
+                    <button class="language-btn">EN <i class="fas fa-chevron-down"></i></button>
+                    <div class="language-dropdown">
+                        <a href="../" class="language-item">Čeština</a>
+                        <a href="../de/" class="language-item">Deutsch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <img src="../img/hero.jpg" alt="CARPORTbusiness Hero" class="hero-image">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Earn with new <span class="highlight-green">fast-charging technology</span> and <span class="highlight-green">clean energy</span> for e-mobility</h1>
+                <p>Operate your own solar CARPORTbusiness, earn money by charging electric vehicles, and participate in the future of sustainable energy. Invest in your own charging station and create a stable and long-term profitable income.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Contact Us</a>
+                    <a href="#products" class="btn btn-secondary" style="border: 2px solid #07ff01; background: transparent; color: #ffffff;">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down-container" style="position: absolute; bottom: 25px; left: 50%; transform: translateX(-50%);">
+            <a href="#about" class="scroll-down-btn">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2>About <span class="highlight">Us</span></h2>
+            <p style="font-size: 1.35rem; font-weight: 500;">Innovative solutions for a sustainable future</p>
+            <div style="margin-top: 16px; font-weight: 500; color: #181818; font-size: 1.15rem;">Next-generation EV charging directly from solar panels with no DC-AC-DC conversion losses</div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="about-content" style="background-color: #f9f9f9; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01;">
+                    <p style="font-size: 1.2rem;">We are introducing a completely new way of fast-charging electric vehicles directly from solar panels via batteries, without the need for a physical fast charger. This solution combines sustainable energy with an opportunity for profit. Our solar CARPORTbusiness units are not just technology for the future, but also a profitable investment – enabling owners to earn from EV charging, increase property value by accounting for future income, and contribute to the ecological transformation of transportation.</p>
+                    <p style="font-size: 1.2rem;">Thanks to the most modern manufacturing processes, which we continuously optimize, we ensure the highest quality, long lifespan, and efficiency of our systems. Each CARPORTbusiness is designed to withstand weather conditions for at least 30 years and provide long-term stable income for the operator.</p>
+                    <p style="font-size: 1.2rem;">With our CARPORTbusiness, you not only protect the environment, but also build your own business in the field of renewable energy.</p>
+                </div>
+            </div>
+        </div>
+            
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="video-container">
+                        <video id="aboutVideoEn" width="100%" playsinline preload="metadata">
+                            <source src="/video/video_with_audio_en.mp4" type="video/mp4">
+                            <track label="English" kind="subtitles" srclang="en" src="/subtitles/subtitles_en.vtt" default>
+                            Your browser does not support video playback.
+                        </video>
+                        <div id="customControlsEn" class="custom-video-controls">
+                            <button class="play-button">▶</button>
+                            <div class="volume-control">
+                                <span class="volume-icon">♫</span>
+                                <input type="range" class="volume-slider" min="0" max="1" step="0.01" value="0.5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h3 class="text-center mb-4">Our Implementations</h3>
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="photo-container gallery-item" data-src="../img/gallery/picture88.jpeg">
+                                <img src="../img/gallery/picture88.jpeg" alt="Implementation 1" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="photo-container gallery-item" data-src="../img/gallery/Picture13.jpg">
+                                <img src="../img/gallery/Picture13.jpg" alt="Implementation 2" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="photo-container gallery-item" data-src="../img/gallery/Picture14.jpg">
+                                <img src="../img/gallery/Picture14.jpg" alt="Implementation 3" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section business-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Get <span class="highlight">turnkey business</span></h2>
+                <p>Do you own a parking area, apartment building with parking, a plot, company parking, or unused area?</p>
+            </div>
+            <div class="text-center mb-4">
+                <p class="business-timeframe" style="font-size: 1.2rem; font-weight: 500; font-style: italic;">Delivery time only 3-4 months | Return on investment 3-4 years | Lifespan 30 years</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="about-content" style="background-color: #f9f9f9; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01; color: #181818; margin-bottom: 32px;">
+<p style="font-size: 1.2rem; margin-bottom: 16px;">Do you have at least 6 or more parking spaces? CARPORTbusiness is a tool that generates around 25% annual return on investment, depending on location, charging frequency, installed technology, solar plant output, number of chargers, and local power supply. For 30 years, you earn income without needing to have employees or be physically present.</p>
+<p style="font-size: 1.2rem; margin-bottom: 16px;">CARPORTbusiness is a self-service charging station with a solar power plant and payment terminals, generating electricity for the chargers itself and automatically taking what it needs from the grid.</p>
+<p style="font-size: 1.2rem; margin-bottom: 0;">Register your site on the charging map, set up local advertising, and just watch the money flow into your account.</p>
+</div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <a href="#contact" class="btn permit-btn">We will help you with all necessary permits <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row product-models mt-5" style="max-width:1200px; margin: 0 auto;">
+                <div class="col-lg-4">
+                    <div class="product-card">
+                        <div class="product-card-header">
+                            <h3>CARPORTbusiness 1</h3>
+                        </div>
+                        <div class="product-card-body d-flex flex-column h-100">
+                            <p class="mb-4">Model for 12 parking spaces</p>
+<div class="product-feature">
+    <i class="fas fa-solar-panel"></i>
+    <div>Power: 30 kWp</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-charging-station"></i>
+    <div>Automatic electric cable feeding</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-car"></i>
+    <div>Number of parking spaces: 12</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-charging-station"></i>
+    <div>Number of chargers: 1× DC 150-300 kW + 5× AC 22 kW</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-clock"></i>
+    <div>Charging time: DC: 20-40 min, AC: 5 hours</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-battery-full"></i>
+    <div>Battery storage capacity: optional 150-300 kWh</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-history"></i>
+    <div>System lifespan: 30 years</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-sync-alt"></i>
+    <div>Return on investment: 3-4 years</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-chart-line"></i>
+    <div>Average yield: EUR 40,000 / USD 45,500 per year</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-plug"></i>
+    <div>Minimum requirements for the distribution network: 3x32A</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-money-bill-wave"></i>
+    <div>Purchase price: from EUR 155,600 / USD 176,800 excluding VAT*</div>
+</div>
+                            
+                            <div class="product-cta mt-auto">
+                                <a href="#contact" class="btn btn-primary">I'm interested</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="product-card">
+                        <div class="product-card-header">
+                            <h3>CARPORTbusiness 2</h3>
+                        </div>
+                        <div class="product-card-body d-flex flex-column h-100">
+                            <p class="mb-4">Model for 24 parking spaces</p>
+<div class="product-feature">
+    <i class="fas fa-solar-panel"></i>
+    <div>Power: 60 kWp</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-charging-station"></i>
+    <div>Automatic electric cable feeding</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-car"></i>
+    <div>Number of parking spaces: 24</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-charging-station"></i>
+    <div>Number of chargers: 1× DC 150 kW + 5× AC 22 kW</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-clock"></i>
+    <div>Charging time: DC: 20-40 min, AC: 5 hours</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-battery-full"></i>
+    <div>Battery storage capacity: 300 kWh</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-history"></i>
+    <div>System lifespan: 30 years</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-sync-alt"></i>
+    <div>Return on investment: 3-4 years</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-chart-line"></i>
+    <div>Average yield: EUR 60,000 / USD 68,200 per year</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-plug"></i>
+    <div>Minimum requirements for the distribution network: 3x32A</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-money-bill-wave"></i>
+    <div>Purchase price: on request</div>
+</div>
+                            
+                            <div class="product-cta mt-auto">
+                                <a href="#contact" class="btn btn-primary">I'm interested</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="product-card">
+                        <div class="product-card-header">
+                            <h3>CARPORTbusiness 3</h3>
+                        </div>
+                        <div class="product-card-body d-flex flex-column h-100">
+                            <p class="mb-4">Extended model for 36 parking spaces</p>
+<div class="product-feature">
+    <i class="fas fa-solar-panel"></i>
+    <div>Power: 90 kWp</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-charging-station"></i>
+    <div>Automatic electric cable feeding</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-car"></i>
+    <div>Number of parking spaces: 36</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-charging-station"></i>
+    <div>Number of chargers: 1× DC 150-300 kW + 5× AC 22 kW</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-clock"></i>
+    <div>Charging time: DC: 20-40 min, AC: 5 hours</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-battery-full"></i>
+    <div>Battery storage capacity: 300 kWh</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-history"></i>
+    <div>System lifespan: 30 years</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-sync-alt"></i>
+    <div>Return on investment: 3-4 years</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-chart-line"></i>
+    <div>Average yield: EUR 80,000 / USD 91,000 per year</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-plug"></i>
+    <div>Minimum requirements for the distribution network: 3x32A</div>
+</div>
+<div class="product-feature">
+    <i class="fas fa-money-bill-wave"></i>
+    <div>Purchase price: on request</div>
+</div>
+                            
+                            <div class="product-cta mt-auto">
+                                <a href="#contact" class="btn btn-primary">I'm interested</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-note text-center mt-5">
+                <p>The model range continues as CARPORTbusiness 4, 5, 6-100. Individual models can be equipped with different types of battery storage, number of chargers.</p>
+<p style="font-size: 1rem; color: #888; margin-bottom: 0;">*The price may vary depending on costs associated with implementation outside the Czech Republic.</p>
+                <div class="text-center mt-4">
+                    <!-- Hidden as requested -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Technology Section -->
+    <section id="technology" class="technology-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>CARPORTbusiness – <span class="highlight">Solar technology</span> charging of the future</h2>
+                <p>Modern solution combining parking, energy production, and electric vehicle charging</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="technology-content" style="background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01;">
+                        <h3>Complex Business Solution</h3>
+                        <p>We provide a solution for the business of charging electric vehicles and possibly reducing the energy load of adjacent buildings and covering parking spaces. It's a tool how to:</p>
+                        <ul>
+                            <li>Operate ecological commercial AC and DC charging stations for electric vehicles with a profit.</li>
+                            <li>Effectively reduce the costs of operating buildings thanks to the produced electricity that is not consumed by charging.</li>
+                            <li>Reduce the company's carbon footprint, i.e., really address ESG.</li>
+                            <li>Bring customers through charging.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="technology-features" style="background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01;">
+                        <h3>Key Features of Technology</h3>
+                        <ul>
+                            <li>Charging station.</li>
+                            <li>Choice between AC and DC charging.</li>
+                            <li>Robust construction and quality components for minimal maintenance.</li>
+                            <li>Integrated energy management and operation monitoring.</li>
+                            <li>Easy installation on the customer's land.</li>
+                            <li>Remote management, service, and support.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <div class="technology-diagram">
+                        <h3 class="text-center">Power plant function description</h3>
+                        <div class="diagram-image text-center mt-4">
+                            <div class="animated-diagram">
+                                <img src="../img/popis_funkce.gif" alt="Power plant function animation" class="img-fluid gif-animation">
+                            </div>
+                        </div>
+                        <div class="diagram-description mt-4">
+                            <p>The most important is our unique power plant control and a new way of charging directly from the panels, through the battery. Depending on the battery size, we can charge with DC power of 150 - 300kW. (Our own developed technology)</p>
+<p>The main component of hybrid power plants is the Hybrid inverter, which has input from batteries for island mode and input from the distribution network for switching to this backup. It is a voltage inverter and charger in one. It includes a pure sine inverter, adaptive charging, PowerAssist hybrid technology, and other features for integration into various types of systems. It is equipped with one AC input for connecting the distribution network or e.g. a generator. The AC1 output ensures power supply without interruption, e.g. in UPS mode, MultiPlus takes over the power supply of connected appliances in less than 20 milliseconds in the event of a distribution network or generator failure. The second output is functional only if the AC input is connected to the distribution network or generator. A load that would quickly discharge the batteries can therefore be connected to this output and will only be powered from the AC source.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <div class="hybrid-system" style="background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01;">
+                        <h3 class="text-center">Hybrid photovoltaic power plant, electric vehicle chargers, rainwater storage system for utility water</h3>
+                        <div class="row mt-4">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li>Hybrid photovoltaic power plants with electric vehicle chargers. Those parking in your parking lot can simultaneously charge their electric vehicle.</li>
+                                    <li>Energy is distributed directly from the power plant to the charger, supplemented by consumption from the battery storage if necessary, and if the supply from the power plant is insufficient, the system can supplement the consumption from the external distribution network.</li>
+                                    <li>To prevent the grid consumption from being too sudden and to avoid large fluctuations in consumption, the system can be set so that the batteries will be partially charged from the grid during periods when the power plant is not producing.</li>
+                                    <li>The entire system can be controlled, and if more consumers connect for fast charging of electric vehicles, the system will distribute capacity for individual chargers.</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li>In addition to the systems already described, it is possible to add a tank for collecting rainwater, which can be used as utility water. The overflow from the tank is connected to the rainwater drainage.</li>
+                                </ul>
+                                <div class="hybrid-image text-center mt-4">
+                                    <img src="../img/picture_bg.png" alt="Hybrid system diagram" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="video-container">
+                        <video id="constructionVideo" width="100%" muted playsinline loop>
+                            <source src="video/konstrukce.mp4" type="video/mp4">
+                            Your browser does not support video playback.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <section class="charger-variants">
+                        <div class="container">
+                            <h2>Charger <span class="highlight">variants</span></h2>
+                            <div class="wallbox-section">
+                                <div class="charger-type">
+                                    <h3>Wallboxes AC:</h3>
+                                    <ul class="charger-list">
+                                        <li>Wallbox with one socket 3.7kW to 22kW</li>
+                                        <li>Wallbox DUO with two sockets 2 x 3.7kW to 22kW</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="fast-charger-section mt-4">
+                                <div class="charger-type">
+                                    <h3>Fast charging stations DC:</h3>
+                                    <ul class="charger-list">
+                                        <li>Charging power 150 - 300kW</li>
+                                        <li>Automatic electric cable feed integrated in the pillar with reel. Cables are protected and cannot be damaged.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <div class="warranty-service" style="background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01;">
+                        <h3 class="text-center">CARPORTbusiness Warranty and Service</h3>
+                        <div class="row mt-4">
+                            <div class="col-lg-6">
+                                <h4>Warranty</h4>
+                                <ul>
+                                    <li>5-year warranty on the power plant and chargers.</li>
+                                    <li>15-year warranty on panels.</li>
+                                </ul>
+                                <h4>Service</h4>
+                                <ul>
+                                    <li>The power plant has remote monitoring via the internet. The system can diagnose errors and defective components itself.</li>
+                                    <li>Our company remotely monitors the state of your power plant and in case of a failure, we immediately resolve the situation.</li>
+                                    <li>After 5 years, service will be provided according to the service contract, however, at reasonable and appropriate prices.</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <h4>Service costs</h4>
+                                <ul>
+                                    <li>Annual maintenance and inspection 1x per year are around 1% of the purchase price.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ROI Calculator Section -->
+    <section id="roi" class="roi-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>ROI <span class="highlight">Calculator</span></h2>
+                <p>Calculate the return on investment and potential earnings of CARPORTbusiness</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div id="roi-calculator" class="roi-calculator" data-currency="eur" data-pricing="eur" data-model-prices="[158000, 243600, 309600]" style="background-color: #ffffff; padding: 40px; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.15); position: relative; overflow: hidden;">
+                        <div class="position-absolute" style="top: 0; right: 0; width: 150px; height: 150px; background-color: rgba(7, 255, 1, 0.05); border-radius: 0 0 0 150px; z-index: 0;"></div>
+                        <div style="position: relative; z-index: 1;">
+                        <h3 class="text-center mb-4" style="font-weight: 700; color: #181818;">Return on Investment (ROI) Calculator</h3>
+                        <p class="text-center mb-5" style="color: #666;">This calculator is for orientation purposes only and provides a basic estimate of investment returns. For an accurate calculation, please contact our sales department.</p>
+                        
+                        <div class="mb-5">
+                            <h5 class="mb-3" style="font-weight: 600;">Type CARPORTbusiness:</h5>
+                            <div class="row mb-4" id="carport-model-selector">
+                                <div class="col-md-12 mb-3">
+                                    <div class="carport-option" data-value="0" style="border: 2px solid #e6e6e6; border-radius: 10px; padding: 20px; text-align: center; transition: all 0.3s ease; height: 100%;">
+                                        <h6 style="font-weight: 700; color: #181818;">CARPORTbusiness 1</h6>
+                                        <p class="mb-1" style="color: #666; font-size: 14px;">12 parking spaces</p>
+                                        <p style="color: #666; font-size: 14px;">30 kWp</p>
+                                        <div style="font-weight: 700; color: #07ff01; margin-top: 10px;">EUR 155,600 / USD 176,800 excluding tax</div>
+                                    </div>
+                                    <input type="hidden" id="carport-model" value="0">
+                                </div>
+                            </div>
+                            <div class="row">
+                            <div class="col-md-6">
+                                <div class="parameters-section" style="background-color: #f9f9f9; border-radius: 10px; padding: 25px; height: 100%;">
+                                    <h5 class="mb-4" style="font-weight: 600;">Charging Parameters:</h5>
+                                    
+                                    <div class="form-group mb-4">
+                                        <label class="form-label d-flex justify-content-between" style="font-weight: 600;">
+                                            <span>Daily AC 22kW Charging Sessions (Slow charging):</span>
+                                            <span style="color: #07ff01; font-weight: 700;" id="ac-chargings-value">5</span>
+                                        </label>
+                                        <input type="range" class="form-range roi-calculator-range" id="ac-chargings" min="1" max="20" value="5" data-output="ac-chargings-value" style="height: 8px; cursor: pointer; background-color: #e9e9e9; border-radius: 5px;">
+                                        <div class="d-flex justify-content-between">
+                                            <small>1</small>
+                                            <small>20</small>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group mb-4">
+                                        <label class="form-label d-flex justify-content-between" style="font-weight: 600;">
+                                            <span>Number of daily DC 160kW chargings (Fast charging):</span>
+                                            <span style="color: #07ff01; font-weight: 700;" id="dc-chargings-value">5</span>
+                                        </label>
+                                        <input type="range" class="form-range roi-calculator-range" id="dc-chargings" min="1" max="20" value="5" data-output="dc-chargings-value" style="height: 8px; cursor: pointer; background-color: #e9e9e9; border-radius: 5px;">
+                                        <div class="d-flex justify-content-between">
+                                            <small>1</small>
+                                            <small>20</small>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="form-label d-flex justify-content-between" style="font-weight: 600;">
+                                            <span>Grid Electricity Price (€/kWh):</span>
+                                            <span style="color: #07ff01; font-weight: 700;" id="electricity-price-value">0.25</span>
+                                        </label>
+                                        <input type="range" class="form-range roi-calculator-range" id="electricity-price" min="0.12" max="0.4" step="0.01" value="0.25" data-output="electricity-price-value" style="height: 8px; cursor: pointer; background-color: #e9e9e9; border-radius: 5px;">
+                                        <div class="d-flex justify-content-between">
+                                            <small>€0.12</small>
+                                            <small>€0.40</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="roi-info p-4 rounded" style="background-color: rgba(7, 255, 1, 0.08); border-radius: 10px; height: 100%;">
+                                    <h5 class="mb-3" style="font-weight: 600;">Calculation Parameters:</h5>
+                                    <ul class="mb-0 ps-3" style="list-style-type: none;">
+                                        <li class="mb-3"><i class="fas fa-check-circle" style="color: #07ff01; margin-right: 8px;"></i> Average charge per vehicle: 70 kWh</li>
+                                        <li class="mb-3"><i class="fas fa-check-circle" style="color: #07ff01; margin-right: 8px;"></i> AC charging selling price: €0.40/kWh</li>
+                                        <li class="mb-3"><i class="fas fa-check-circle" style="color: #07ff01; margin-right: 8px;"></i> DC charging selling price: €0.64/kWh</li>
+                                        <li class="mb-3"><i class="fas fa-check-circle" style="color: #07ff01; margin-right: 8px;"></i> Calculation includes savings on electricity produced by solar panels</li>
+                                        <li><i class="fas fa-check-circle" style="color: #07ff01; margin-right: 8px;"></i> Calculation includes 365 days of operation per year</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h5 class="mt-5 mb-4 text-center" style="font-weight: 700; color: #181818;">Results</h5>
+                        
+                        <div class="row results-section">
+                            <div class="col-md-6 mb-4">
+                                <div class="result-box text-center p-4 rounded" style="background-color: #f9f9f9; border: 1px solid #e6e6e6; border-radius: 10px; transition: all 0.3s ease;">
+                                    <div class="mb-2"><i class="fas fa-calendar-day" style="font-size: 24px; color: #07ff01;"></i></div>
+                                    <h5 style="font-weight: 600; color: #181818;">Daily Income</h5>
+                                    <p class="result-value" id="daily-income" style="font-size: 2rem; font-weight: 700; color: #07ff01; margin: 10px 0;">€0</p>
+                                    <p class="small text-muted mb-0">Expected daily income from charging station operation</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="result-box text-center p-4 rounded" style="background-color: #f9f9f9; border: 1px solid #e6e6e6; border-radius: 10px; transition: all 0.3s ease;">
+                                    <div class="mb-2"><i class="fas fa-calendar" style="font-size: 24px; color: #07ff01;"></i></div>
+                                    <h5 style="font-weight: 600; color: #181818;">Annual Income</h5>
+                                    <p class="result-value" id="annual-income" style="font-size: 2rem; font-weight: 700; color: #07ff01; margin: 10px 0;">€0</p>
+                                    <p class="small text-muted mb-0">Expected income for a full year of operation</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="result-box text-center p-4 rounded" style="background-color: #f9f9f9; border: 1px solid #e6e6e6; border-radius: 10px; transition: all 0.3s ease;">
+                                    <div class="mb-2"><i class="fas fa-chart-line" style="font-size: 24px; color: #07ff01;"></i></div>
+                                    <h5 style="font-weight: 600; color: #181818;">Return on Investment</h5>
+                                    <p class="result-value mb-0" id="roi-years" style="font-size: 2rem; font-weight: 700; color: #07ff01; margin: 10px 0 0 0;">0</p>
+                                    <p class="small text-muted mb-2">years</p>
+                                    <p id="roi-evaluation" class="small mb-0" style="color: #07ff01; font-weight: 600;">Excellent investment with fast ROI!</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="result-box text-center p-4 rounded" style="background-color: #f9f9f9; border: 1px solid #e6e6e6; border-radius: 10px; transition: all 0.3s ease;">
+                                    <div class="mb-2"><i class="fas fa-coins" style="font-size: 24px; color: #07ff01;"></i></div>
+                                    <h5 style="font-weight: 600; color: #181818;">Total Income After 30 Years</h5>
+                                    <p class="result-value" id="total-income-30-years" style="font-size: 2rem; font-weight: 700; color: #07ff01; margin: 10px 0;">€0</p>
+                                    <p class="small text-muted mb-0">Long-term financial benefit of your investment</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center mt-4">
+                            <a href="#contact" class="btn btn-primary btn-lg" style="background-color: #07ff01; border: none; color: #181818; font-weight: 600; padding: 12px 30px; border-radius: 30px;">Get Precise Calculation</a>
+                            <p class="small text-muted mt-3">This calculator provides an approximate estimate of return on investment and potential earnings. For a precise calculation tailored to your needs, please contact us.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- For Business Section -->
+    <section id="for-business" class="for-business-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>CARPORTbusiness <span class="highlight">for Companies</span></h2>
+                <p>Solutions for large commercial parking lots and corporate clients</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="business-content">
+                        <h3>CARPORTbusiness for large corporate clients</h3>
+                        <p>Our goal is to supply CARPORTbusiness for large manufacturing companies, car dealerships, hotels, warehouse operators, shopping centers, retail chains, parking lot operators, cities, airports, gas stations, fast foods, ski resorts, and similar establishments.</p>
+                        <p>Our technology is modular, and therefore there is no difference in manufacturing CARPORTbusiness 1 or CARPORTbusiness 100.</p>
+                        <p>Electricity produced from large unused parking areas helps to rapidly reduce the energy demands of large buildings, productions, and operations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 mb-4">
+                    <div class="photo-container" style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01;">
+                        <img src="../img/Picture9.jpg" alt="CARPORTbusiness for business 1" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="photo-container" style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01;">
+                        <img src="../img/Picture10.jpg" alt="CARPORTbusiness for business 2" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#contact" class="btn permit-btn">Contact us for business solutions <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Contact <span class="highlight">Us</span></h2>
+                <p>Are you interested in our solutions or need more information about CARPORTbusiness?</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="contact-info" style="background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-left: 6px solid #07ff01;">
+                        <h3 class="text-center mb-4">Contact Us</h3>
+                        <div class="contact-person mt-4">
+                            <div class="row">
+                                <div class="col-md-6 mb-4 mb-md-0">
+                                    <div class="contact-card text-center p-3" style="height: 100%; border-radius: 8px; border: 2px solid rgba(7, 255, 1, 0.3); position: relative; padding-bottom: 80px !important;">
+                                        <h4 class="mb-3"><i class="fas fa-user me-2" style="color: #07ff01;"></i> Sales Department</h4>
+                                        <p class="mb-2"><i class="fas fa-phone me-2" style="color: #07ff01;"></i> +420 775 265 819</p>
+                                        <p class="mb-4"><i class="fas fa-envelope me-2" style="color: #07ff01;"></i> <a href="mailto:info@carportbusiness.com">info@carportbusiness.com</a></p>
+                                        <div style="position: absolute; bottom: 20px; left: 0; right: 0; text-align: center;">
+                                            <a href="tel:+420775265819" class="btn btn-primary me-2" style="background-color: #07ff01; border: none;"><i class="fas fa-phone me-2"></i>Call</a>
+                                            <a href="mailto:info@carportbusiness.com" class="btn btn-outline-primary" style="border-color: #07ff01; color: #000;">Email</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="contact-card text-center p-3" style="height: 100%; border-radius: 8px; border: 2px solid rgba(7, 255, 1, 0.3); position: relative; padding-bottom: 80px !important;">
+                                        <h4 class="mb-3"><i class="fas fa-user-tie me-2" style="color: #07ff01;"></i> CEO</h4>
+                                        <p class="mb-2"><strong>Monika Kerešťanová</strong></p>
+                                        <p class="mb-2"><i class="fas fa-phone me-2" style="color: #07ff01;"></i> +420 776 803 155</p>
+                                        <p class="mb-4"><i class="fas fa-envelope me-2" style="color: #07ff01;"></i> <a href="mailto:monika.kerestanova@carportbusiness.com">monika.kerestanova@carportbusiness.com</a></p>
+                                        <div style="position: absolute; bottom: 20px; left: 0; right: 0; text-align: center;">
+                                            <a href="tel:+420776803155" class="btn btn-primary me-2" style="background-color: #07ff01; border: none;"><i class="fas fa-phone me-2"></i>Call</a>
+                                            <a href="mailto:monika.kerestanova@carportbusiness.com" class="btn btn-outline-primary" style="border-color: #07ff01; color: #000;">Email</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-3 mb-lg-0">
+                    <div class="footer-logo-container">
+                        <img src="../img/logo-white.png" alt="CARPORTbusiness Logo" class="footer-logo" style="filter: brightness(0) invert(1); mix-blend-mode: screen;">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-menu">
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#technology">Technology</a></li>
+                            <li><a href="#for-business">For Business</a></li>
+                            <li><a href="#roi">ROI Calculator</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-contact">
+                        <h4>Stay Connected</h4>
+                        <p>Pražská 183, 439 83 Lubenec<br>
+                           
+                           Czech Republic</p>
+                        <p><a href="tel:+420775265819" class="contact-link">+420 775 265 819</a><br>
+                          <a href="mailto:info@carportbusiness.com" class="contact-link">info@carportbusiness.com</a></p>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="icon-facebook"></i></a>
+                            <a href="#" class="social-icon"><i class="icon-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="icon-youtube"></i></a>
+                            <a href="#" class="social-icon"><i class="icon-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-divider"></div>
+                <div class="footer-company-info">
+                    <div class="company-info-row">&copy; 2025 CARPORTbusiness</div>
+                    <div class="company-info-row">&copy; 2025 Robotech Innovation s.r.o. | ID: 22244018 All rights reserved. <a href="/gdpr.html" target="_blank" style="color:#07ff01; text-decoration:underline;">GDPR</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" style="display: none; position: fixed; bottom: 20px; right: 20px; z-index: 99; background-color: #07ff01; color: black; width: 50px; height: 50px; border-radius: 50%; border: none; cursor: pointer; box-shadow: 0 4px 8px rgba(0,0,0,0.3); outline: none; transition: all 0.3s ease;">
+        <i style="border: solid black; border-width: 0 3px 3px 0; display: inline-block; padding: 5px; transform: rotate(-135deg); -webkit-transform: rotate(-135deg);"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="../js/bootstrap.bundle.min.js" defer></script>
+    <script src="../js/main.js" defer></script>
+    <script src="../js/roi-calculator.js" defer></script>
+    <script src="../js/cookie-banner.js" defer></script>
+    <script src="../js/video-init.js" defer></script>
+
+</body>
+</html>
