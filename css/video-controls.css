@@ -73,6 +73,8 @@
     display: flex;
     align-items: center;
     gap: 8px;
+    position: relative;
+    z-index: 10; /* Vyšší z-index pro správnou funkci na mobilních zařízeních */
     background: var(--dark-overlay);
     border-radius: var(--control-border-radius);
     padding: 4px 10px;
@@ -82,6 +84,9 @@
     color: var(--carport-green);
     font-size: 16px;
     cursor: pointer;
+    padding: 5px; /* Větší dotyková plocha */
+    min-width: 24px;
+    text-align: center;
     transition: all 0.2s ease;
 }
 

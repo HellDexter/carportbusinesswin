@@ -3,6 +3,27 @@
  * Verze pro videa s integrovaným zvukem a moderním designem
  */
 document.addEventListener('DOMContentLoaded', function() {
+    // Nastavení náhledového obrázku pro všechna videa
+    const videos = document.querySelectorAll('video[poster]');
+    videos.forEach(video => {
+        // Nastavíme událost pro případ, že se náhled nenačte
+        video.addEventListener('error', function(e) {
+            if (e.target.tagName === 'SOURCE') {
+                console.log('Chyba při načítání videa, použije se náhledový obrázek');
+            }
+        }, true);
+        
+        // Vynucení použití posteru i na desktopu
+        video.addEventListener('loadedmetadata', function() {
+            if (!video.hasAttribute('data-poster-loaded')) {
+                // Nastavíme příznak, že jsme už nastavili poster
+                video.setAttribute('data-poster-loaded', 'true');
+                // Vynucení zobrazení posteru
+                video.currentTime = 0;
+            }
+        });
+    });
+    
     // Inicializace českého videa
     initVideoPlayer('aboutVideo', 'customControls');
     
@@ -146,7 +167,13 @@ function initVideoPlayer(videoId, controlsId) {
         }
         
         // Přidáme event listener pro kliknutí na ikonu (ztlumení/zapnutí zvuku)
-        volumeIcon.addEventListener('click', function() {
+        const handleVolumeIconClick = function(e) {
+            // Zastavíme propagaci události, aby se nezobrazily/neskryly ovládací prvky
+            if (e) {
+                e.stopPropagation();
+                e.preventDefault();
+            }
+            
             if (video.volume > 0) {
                 // Uložíme aktuální hlasitost před ztlumením
                 volumeIcon.dataset.previousVolume = video.volume;
@@ -162,7 +189,12 @@ function initVideoPlayer(videoId, controlsId) {
             }
             updateVolumeIcon(video.volume);
             resetInactivityTimer();
-        });
+            console.log('Změna hlasitosti: ' + video.volume);
+        };
+        
+        // Přidáme event listenery pro kliknutí i dotyk
+        volumeIcon.addEventListener('click', handleVolumeIconClick);
+        volumeIcon.addEventListener('touchstart', handleVolumeIconClick);
     }
     
     // Funkce pro aktualizaci ikony hlasitosti
